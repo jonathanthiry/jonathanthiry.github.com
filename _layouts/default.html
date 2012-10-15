@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %} {{ page.title }} | {% endif %} Jonathan Thiry</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://jonathanthiry/feed">
+  <link rel="stylesheet" href="/assets/stylesheets/styles.css">
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+  <script type="text/javascript" src="//use.typekit.net/mqo1ugh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+  <header class="header">
+    <a href="/">
+      <img class="logo" src="/assets/images/logo.svg">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="content">
+    {{ content }}
+  </div>
+
+  <script type="text/javascript">
+  var clicky_site_ids = clicky_site_ids || [];
+  clicky_site_ids.push(66500202);
+  (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//static.getclicky.com/js';
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+  </script>
+  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66500202ns.gif" /></p></noscript>
+</body>
+</html>

@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Jonathan Thiry</title>
+ <link href="http://jonathanthiry.com/feed" rel="self"/>
+ <link href="http://jonathanthiry.com"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://jonathanthiry.com/</id>
+ <author>
+   <name>Jonathan Thiry</name>
+ </author>
+
+ {% for post in site.posts limit: 20 %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://jonathanthiry.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://jonathanthiry.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
