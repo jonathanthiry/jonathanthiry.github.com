@@ -14,14 +14,6 @@ summary {
   display: block;
 }
 
-audio,
-canvas,
-video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
-
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
@@ -36,19 +28,16 @@ a:focus {
   outline: thin dotted;
 }
 
-a:hover,
-a:active {
-  outline: 0;
-}
-
 h1 {
   font-size: 2em;
+  font-weight: normal;
   margin: 0.67em 0;
 }
 
 h2 {
   font-size: 1.5em;
-  margin: 0.83em 0;
+  font-weight: normal;
+  margin: 0.83em 0 0 0;
 }
 
 b,
@@ -61,7 +50,7 @@ blockquote {
 }
 
 p {
-  margin: 1em 0;
+  margin: 0.5em 0 1em 0;
 }
 
 sub,
@@ -110,9 +99,10 @@ table {
 body {
   font: 100%/1.5 "chaparral-pro", georgia, serif;
   width: 90%;
-  max-width: 1024px;
+  max-width: 760px;
   margin: 1em auto;
-  color: #363636;
+  color: #383838;
+  background: #fbfbfb;
 }
 
 .arrowlink {
@@ -123,7 +113,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ff4f00;
+  color: #000;
   -webkit-transition: color 0.15s linear;
      -moz-transition: color 0.15s linear;
       -ms-transition: color 0.15s linear;
@@ -132,7 +122,7 @@ a {
 }
 
 a:hover {
-  color: #000;
+  color: #ff4f00;
 }
 
 a:active {
@@ -140,24 +130,27 @@ a:active {
 }
 
 .header {
-  margin: 1em auto;
-  height: 45px;
-  padding-bottom: 1em;
+  margin: 2em auto;
+  height: 60px;
   border-bottom: 2px solid #21acee;
 }
 
 .logo {
-  width: 75px;
-  height: 75px;
-  float: left;
-  margin-left: 1em;
-  vertical-align: middle;
+  position: absolute;
+  top: 2.2em;
+  left: 50%;
+  margin-left: -35px;
+  width: 70px;
+  height: 70px;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
 }
 
 nav {
-  vertical-align: middle;
   float: right;
-  font-size: 1.25em;
 }
 
 nav ul {
@@ -168,18 +161,18 @@ nav ul {
 nav li {
   display: block;
   list-style: none;
-  margin: 0.5em 1em;
+  margin: 1.5em 1em;
 }
 
 nav a {
-  color: #363636;
+  color: #777;
 }
 
 nav a:hover {
-  color: #ff4f00;
+  color: #383838;
 }
 
-#content {
+.content {
   clear: right;
   max-width: 760px;
   margin: 2em auto;
@@ -189,9 +182,14 @@ nav a:hover {
   margin-bottom: 3em;
 }
 
-h1,
-h2 {
-  font-weight: normal;
+.post-title {
+  font-size: 1.5em;
+  margin: 2em 0 1em;
+}
+
+.post-content a,
+.page a {
+  border-bottom: 1px solid #ccc;
 }
 
 .meta {
@@ -203,16 +201,9 @@ h2 {
   body {
     width: 80%;
   }
-  .header {
-    height: 60px;
-  }
-  .logo {
-    width: 100px;
-    height: 100px;
-  }
-  nav li {
-    float: left;
-    margin: 1.5em 1em;
+  .post-title {
+    font-size: 2em;
+    margin: 3em 0 1em;
   }
 }
 
@@ -223,13 +214,10 @@ h2 {
   .header {
     margin: 2em auto;
   }
-  .logo {
-    margin-left: 2em;
-  }
   nav li {
     margin: 1em 2em;
   }
-  #content {
+  .content {
     margin: 4em auto;
   }
   .post {

@@ -5,12 +5,12 @@ layout: default
 {% for post in site.posts limit:10 %}
   <div class="post">
     {% if post.link %}
-    <h2><a href="{{ post.link }}">{{ post.title }}</a><span class="arrowlink">➜</span></h2>
+    <h2 class="post-title"><a href="{{ post.link }}">{{ post.title }}</a><span class="arrowlink">➜</span></h2>
     {% else %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% endif %}
 
-    <div class="body">
+    <div class="post-content">
       {{ post.content }}
     </div>
 
