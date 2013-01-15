@@ -3,13 +3,18 @@ layout: page
 title: About
 ---
 
-I'm Jonathan Thiry, a web developer/designer focussed on user experience. I use a mix of tools (Sublime Text, Photoshop), techniques (Responsive Web Design, Mobile First), technologies (JavaScript, node.js) and green tea to create web applications.
+I'm a web developer based in London. I create web applications in Sublime Text using techniques such as Responsive Web Design, Mobile First and other JS tricks. I keep everything coherent with green tea.
 
-I use this website to share my thoughts on technology, design, user experience and more.
+Sometimes I am torn between form and function, features and UI. Good user experience should try to get the most out of both but compromises are always necessary.
+
+I use this website to share my experience, thoughts and experiments on the intersection between life and technology.
+
+-- Jonathan
 
 ## Contact
 
-The best way to contact me is to send an email at <me@jonathanthiry.com>, 140 characters [@jonathanthiry](http://twitter.com/jonathanthiry) or 256 on [app.net](https://alpha.app.net/jonathanthiry).
+You can contact me on Twitter [@jonathanthiry](http://twitter.com/jonathanthiry) or [app.net](https://alpha.app.net/jonathanthiry).
+I also read and reply to emails at <me@jonathanthiry.com>.
 
 ## Colophon
 

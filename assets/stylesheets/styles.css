@@ -32,12 +32,14 @@ h1 {
   font-size: 2em;
   font-weight: normal;
   margin: 0.67em 0;
+  line-height: 1.2em;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: normal;
   margin: 0.83em 0 0 0;
+  line-height: 1.2em;
 }
 
 b,
@@ -99,9 +101,9 @@ table {
 body {
   font: 100%/1.5 "chaparral-pro", georgia, serif;
   width: 90%;
-  max-width: 760px;
-  margin: 1em auto;
-  color: #383838;
+  max-width: 680px;
+  margin: 0 auto;
+  color: #444;
   background: #fbfbfb;
 }
 
@@ -130,6 +132,7 @@ a:active {
 }
 
 .header {
+  position: relative;
   margin: 2em auto;
   height: 60px;
   border-bottom: 2px solid #21acee;
@@ -137,7 +140,7 @@ a:active {
 
 .logo {
   position: absolute;
-  top: 2.2em;
+  top: 0;
   left: 50%;
   margin-left: -35px;
   width: 70px;
@@ -203,13 +206,14 @@ nav a:hover {
   }
   .post-title {
     font-size: 2em;
-    margin: 3em 0 1em;
+    /*margin: 3em 0 1em;*/
   }
 }
 
 @media screen and (min-width: 768px) {
   body {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    line-height: 1.785em;
   }
   .header {
     margin: 2em auto;
@@ -221,6 +225,6 @@ nav a:hover {
     margin: 4em auto;
   }
   .post {
-    margin-bottom: 4em;
+    margin-bottom: 6em;
   }
 }
