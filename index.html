@@ -15,7 +15,7 @@ layout: default
     </div>
 
     <a class="meta" href="{{ post.url }}">
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="date" pubdate="pubdate">{{ post.date | date_to_long_string }}</time>
+      <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="date" pubdate="pubdate">{{ post.date | date_to_long_string }}</time>
       <span class="separator">•</span>
       <span class="permalink">∞</span>
     </a>

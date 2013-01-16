@@ -12,5 +12,5 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
-  <time datetime="{{ post.date | date_to_xmlschema }}" class="meta" pubdate="pubdate">{{ page.date | date_to_long_string }}</time>
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="meta" pubdate="pubdate">{{ page.date | date_to_long_string }}</time>
 </article>
