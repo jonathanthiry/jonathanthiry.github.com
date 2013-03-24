@@ -3,14 +3,19 @@ layout: default
 ---
 
 <article>
-  {% if page.link %}
-  <h1 class="post-title"><a href="{{ page.link }}">{{ page.title }}</a><span class="arrowlink">➜</span></h1>
-  {% else %}
-  <h1 class="post-title">{{ page.title }}</h1>
-  {% endif %}
+  <header class="post-header">
+
+    {% if page.link %}
+    <h1 class="post-title"><a href="{{ page.link }}">{{ page.title }}</a><span class="arrowlink">➜</span></h1>
+    {% else %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
+
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="meta" pubdate="pubdate">{{ page.date | date_to_long_string }}</time>
+
+  </header>
 
   <div class="post-content">
     {{ content }}
   </div>
-  <time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="meta" pubdate="pubdate">{{ page.date | date_to_long_string }}</time>
 </article>

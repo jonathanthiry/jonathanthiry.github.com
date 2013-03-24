@@ -4,20 +4,20 @@ layout: default
 
 {% for post in site.posts limit:10 %}
   <div class="post">
-    {% if post.link %}
-    <h2 class="post-title"><a href="{{ post.link }}">{{ post.title }}</a><span class="arrowlink">➜</span></h2>
-    {% else %}
-    <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {% endif %}
+    <header class="post-header">
+
+        {% if post.link %}
+        <h2 class="post-title"><a href="{{ post.link }}">{{ post.title }}</a><span class="arrowlink">➜</span></h2>
+        {% else %}
+        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {% endif %}
+
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="meta" pubdate="pubdate">{{ post.date | date_to_long_string }}</time>
+
+    </header>
 
     <div class="post-content">
       {{ post.content }}
     </div>
-
-    <a class="meta" href="{{ post.url }}">
-      <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="date" pubdate="pubdate">{{ post.date | date_to_long_string }}</time>
-      <span class="separator">•</span>
-      <span class="permalink">∞</span>
-    </a>
   </div>
 {% endfor %}

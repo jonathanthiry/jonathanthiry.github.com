@@ -9,8 +9,6 @@ Sometimes I am torn between form and function, features and UI. Good user experi
 
 I use this website to share my experience, thoughts and experiments on the intersection between life and technology.
 
-Jonathan
-
 ## Contact
 
 You can contact me on Twitter [@jonathanthiry](http://twitter.com/jonathanthiry) or [app.net](https://alpha.app.net/jonathanthiry).

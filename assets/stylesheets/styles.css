@@ -27,14 +27,14 @@ a:focus {
 h1 {
   font-size: 2em;
   font-weight: normal;
-  margin: 0.67em 0;
+  margin: 0;
   line-height: 1.2em;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: normal;
-  margin: 0.83em 0 0 0;
+  margin: 0;
   line-height: 1.2em;
 }
 
@@ -144,19 +144,27 @@ a:active {
 }
 
 .logo img {
+  position: absolute;
   width: 70px;
   height: 70px;
+  transition: 1s ease 0.2s;
+}
+
+.logo-img:hover {
+  opacity: 0;
 }
 
 nav {
   float: right;
   margin: 0 1em;
+  font-style: italic;
+  font-size: 80%;
 }
 
 nav a {
   display: inline-block;
   margin: 1em;
-  color: #777;
+  color: #b6b6b6;
 }
 
 nav a:hover {
@@ -170,12 +178,20 @@ nav a:hover {
 }
 
 .post {
-  margin-bottom: 3em;
+  margin: 3em 0;
+}
+
+.post-header {
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .post-title {
   font-size: 1.5em;
-  margin: 2em 0 1em;
+}
+
+.page-title {
+  margin: 0.67em 0;
 }
 
 .post-content a,
@@ -213,6 +229,6 @@ nav a:hover {
     margin: 4em auto;
   }
   .post {
-    margin-bottom: 6em;
+    margin: 4em 0 6em;
   }
 }
