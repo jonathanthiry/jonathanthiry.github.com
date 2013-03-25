@@ -156,19 +156,23 @@ a:active {
 
 nav {
   float: right;
-  margin: 0 1em;
+  margin: 3em 0;
   font-style: italic;
   font-size: 80%;
 }
 
-nav a {
+nav a,
+nav a:visited {
   display: inline-block;
-  margin: 1em;
   color: #b6b6b6;
 }
 
 nav a:hover {
   color: #383838;
+}
+
+nav span {
+  display: inline-block;
 }
 
 .content {
@@ -178,7 +182,7 @@ nav a:hover {
 }
 
 .post {
-  margin: 3em 0;
+  margin: 3em 0 6em;
 }
 
 .post-header {
@@ -208,6 +212,9 @@ nav a:hover {
   body {
     width: 80%;
   }
+  nav {
+    margin: 2em 1em;
+  }
   .post-title {
     font-size: 2em;
     /*margin: 3em 0 1em;*/
@@ -219,16 +226,13 @@ nav a:hover {
     font-size: 1.1em;
     line-height: 1.785em;
   }
-  .header {
-    margin: 2em auto;
-  }
-  nav li {
+  nav {
     margin: 1em 2em;
   }
   .content {
     margin: 4em auto;
   }
   .post {
-    margin: 4em 0 6em;
+    margin: 4em 0 8em;
   }
 }
