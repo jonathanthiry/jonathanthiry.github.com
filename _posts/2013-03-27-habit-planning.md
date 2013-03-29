@@ -4,7 +4,7 @@ layout: post
 date: 2013-03-27 23:20	:00
 ---
 
-Bloggers be can successful by posting once in a while, a few times a week or even every day. I chose a daily routine to help me get into the habit of writing but it is not necessary the key to good content.
+Bloggers can be successful by posting once in a while, a few times a week or even every day. I chose a daily routine to help me get into the habit of writing but it is not necessarily the key to good content.
 
 I haven't had much time to write today so it felt forced at first. But once I got in the flow I enjoyed the process. I'm looking for ways to improve my workflow to make it feel more natural. The weekend will give me the opportunity to list topics I want to write about and maybe prepare posts in advance. A bit of planning should make everything easier.
 
