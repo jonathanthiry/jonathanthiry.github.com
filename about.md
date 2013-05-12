@@ -11,9 +11,9 @@ I use this website to share my experience, thoughts and experiments on the inter
 
 ## Contact
 
-You can contact me on Twitter [@jonathanthiry](http://twitter.com/jonathanthiry) or [app.net](https://alpha.app.net/jonathanthiry).
-I also read and reply to emails at <me@jonathanthiry.com>.
+You can contact me @jonathanthiry on [Twitter](http://twitter.com/jonathanthiry) or [app.net](https://alpha.app.net/jonathanthiry).
+You can also email me at <me@jonathanthiry.com>.
 
 ## Colophon
 
-This website is powered by [Jekyll](https://github.com/mojombo/jekyll) and hosted on Github. The typeface is Chaparral and is served by [Typekit](https://typekit.com/).
+This website is powered by [Jekyll](https://github.com/mojombo/jekyll) and hosted on Github.

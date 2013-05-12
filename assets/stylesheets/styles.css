@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'PolyRegular';
+    src: url('../fonts/Poly-Regular-webfont.woff') format('woff'),
+         url('../fonts/Poly-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*** Noromalize ***/
 
 article,
@@ -95,11 +103,11 @@ table {
 /*** Main ***/
 
 body {
-  font: 100%/1.5 "chaparral-pro", georgia, serif;
+  font: 100%/1.5 "PolyRegular", georgia, serif;
   width: 90%;
   max-width: 680px;
   margin: 0 auto;
-  color: #444;
+  color: #454545;
   background: #fbfbfb;
 }
 
