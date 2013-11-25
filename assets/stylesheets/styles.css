@@ -35,14 +35,14 @@ a:focus {
 h1 {
   font-size: 2em;
   font-weight: normal;
-  margin: 0;
+  margin: 1.5em 0 0;
   line-height: 1.2em;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: normal;
-  margin: 0;
+  margin: 1.5em 0 0;
   line-height: 1.2em;
 }
 
@@ -155,11 +155,6 @@ a:active {
   position: absolute;
   width: 70px;
   height: 70px;
-  transition: 1s ease 0.2s;
-}
-
-.logo-img:hover {
-  opacity: 0;
 }
 
 nav {
