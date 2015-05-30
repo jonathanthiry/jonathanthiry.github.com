@@ -1,12 +1,20 @@
 @font-face {
-    font-family: 'PolyRegular';
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poly';
     src: url('../fonts/Poly-Regular-webfont.woff') format('woff'),
          url('../fonts/Poly-Regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-/*** Noromalize ***/
+/*** Normalize ***/
 
 article,
 aside,
@@ -33,15 +41,13 @@ a:focus {
 }
 
 h1 {
-  font-size: 2em;
-  font-weight: normal;
+  font: 2em Oswald, sans-serif;
   margin: 1.5em 0 0;
   line-height: 1.2em;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: normal;
+  font: 1.5em Oswald, sans-serif;
   margin: 1.5em 0 0;
   line-height: 1.2em;
 }
@@ -103,7 +109,7 @@ table {
 /*** Main ***/
 
 body {
-  font: 100%/1.5 "PolyRegular", georgia, serif;
+  font: 100%/1.5 Poly, Georgia, serif;
   width: 90%;
   max-width: 680px;
   margin: 0 auto;
@@ -136,42 +142,29 @@ a:active {
 }
 
 .header {
-  position: relative;
-  margin: 2em auto;
-  height: 60px;
+  margin: 0 auto 2em auto;
+  padding: 1em 0;
   border-bottom: 2px solid #21acee;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin-left: -35px;
-  width: 70px;
-  height: 70px;
+.header a:hover {
+  color: #383838;
 }
 
-.logo img {
-  position: absolute;
-  width: 70px;
-  height: 70px;
+.title {
+  display: inline-block;
 }
 
 nav {
   float: right;
-  margin: 3em 0;
-  font-style: italic;
-  font-size: 80%;
 }
 
 nav a,
 nav a:visited {
   display: inline-block;
   color: #b6b6b6;
-}
-
-nav a:hover {
-  color: #383838;
 }
 
 nav span {
@@ -215,12 +208,11 @@ nav span {
   body {
     width: 80%;
   }
-  nav {
-    margin: 2em 1em;
+  .header {
+    margin-top: 2em;
   }
   .post-title {
     font-size: 2em;
-    /*margin: 3em 0 1em;*/
   }
 }
 
@@ -228,9 +220,6 @@ nav span {
   body {
     font-size: 1.1em;
     line-height: 1.785em;
-  }
-  nav {
-    margin: 1em 2em;
   }
   .content {
     margin: 4em auto;
