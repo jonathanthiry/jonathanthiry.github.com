@@ -6,14 +6,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Poly';
-    src: url('../fonts/Poly-Regular-webfont.woff') format('woff'),
-         url('../fonts/Poly-Regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /*** Normalize ***/
 
 article,
@@ -109,7 +101,7 @@ table {
 /*** Main ***/
 
 body {
-  font: 100%/1.5 Poly, Georgia, serif;
+  font: 100%/1.5 Charter, Georgia, serif;
   width: 90%;
   max-width: 680px;
   margin: 0 auto;
@@ -126,11 +118,7 @@ body {
 a {
   text-decoration: none;
   color: #000;
-  -webkit-transition: color 0.15s linear;
-     -moz-transition: color 0.15s linear;
-      -ms-transition: color 0.15s linear;
-       -o-transition: color 0.15s linear;
-          transition: color 0.15s linear;
+  transition: color 0.15s linear;
 }
 
 a:hover {
