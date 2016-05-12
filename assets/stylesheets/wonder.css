@@ -1,16 +1,103 @@
-html,
-body,
 .wonder-title {
-  background: #363843;
-  background: -webkit-linear-gradient(#414353 0%, #363843 100%);
-  height: 100%;
+  text-align: center;
+  margin: 2em 0;
 }
 
-.wonder-title {
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 4em;
-  font-weight: bold;
+.wonder-title h1 {
+  margin: 0;
+  font-size: 4.5em;
+  text-transform: uppercase;
+}
+
+.wonder-title h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.wonder-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 22.41%;
+  margin: 1em auto;
+  display: block;
+}
+
+.wonder-description {
+  margin-bottom: 3em;
+}
+
+.email-signup {
+  text-align: center;
+  margin-bottom: 3em;
+  padding: 0.5em 0 1.5em;
+  background: #EEE;
+  border-radius: 6px;
+}
+
+.email-signup-title {
+  font-size: 1.1em;
+}
+
+.email {
+  display: inline;
+  width: 200px;
+	font-size: 80%;
+	text-align: left;
+	border: 1px solid #eee;
+	border-radius: 6px;
+	padding: 10px;
+	margin: 20px 10px 10px 0;
+	-webkit-appearance: none;
+}
+
+.button {
+  position: relative;
+  display: inline;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 80%;
+  background: #333;
+  color: #fff;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #000;
+}
+
+.signature {
+  margin-bottom: 3em;
+  font-size: 1em;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 5em;
+  font-size: 0.8em;
+}
+
+.footer a {
+  color: #111;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+  .wonder-title {
+    margin: 4em 0;
+  }
+
+  .wonder-icon {
+    width: 128px;
+    height: 128px;
+    margin: 2em auto;
+  }
+
+  .email-signup-title {
+    font-size: 1.5em;
+  }
 }

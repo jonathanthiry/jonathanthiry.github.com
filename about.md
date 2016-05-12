@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /about
 ---
 
 I'm an iOS and web programmer, originally from France and now living in Sweden.
