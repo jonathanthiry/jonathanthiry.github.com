@@ -3,8 +3,9 @@ layout: page
 permalink: /about
 ---
 
-I'm an iOS and web programmer, originally from France and now living in Sweden.
-I write about many different subjects, from design to technology or any other thoughts that influence my life.
+<img src="/assets/images/jonathan-circle.png" class="jonathan-photo" alt="Photo of Jonathan">
+
+I'm an iOS and web programmer, originally from France and now living in Sweden. I'm working on [Wonder, a Wikipedia reader for iPhone](/wonder). Here is what I'm doing [now](/now).
 
 Email: [hello@jonathanthiry.com](mailto:hello@jonathanthiry.com)  
 Twitter: [@jonathanthiry](https://twitter.com/jonathanthiry)
