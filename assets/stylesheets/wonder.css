@@ -4,9 +4,32 @@
 }
 
 .wonder-press-content {
+  clear: both;
   width: 90%;
   max-width: 680px;
   margin: 0 auto;
+}
+
+.wonder-press-icon {
+  width: 256px;
+  height: 256px;
+  border-radius: 22.41%;
+  margin: 1em 0;
+  display: block;
+}
+
+.wonder-press-banner {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.wonder-press-footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 5em 0;
+  padding: 5em 0;
+  border-top: 1px solid #ddd;
+  line-height: 1.5em;
 }
 
 .wonder-title {
@@ -144,17 +167,21 @@ width: 320px;
   .email-signup-title {
     font-size: 1.5em;
   }
-  
+
 /*
   .wonder-screenshot {
     width: 200px;
   }
 */
-  
+
   .wonder-screenshots li {
     width: 50%;
 
 /*     margin-right: 1%; */
+  }
+
+  .wonder-press-footer {
+    padding: 5em;
   }
 }
 
@@ -164,7 +191,7 @@ width: 320px;
     width: 280px;
   }
 */
-  
+
   .wonder-screenshots li {
     width: 33%;
 
