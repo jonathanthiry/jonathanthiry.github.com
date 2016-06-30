@@ -1,13 +1,52 @@
+.wonder-page {
+  width: 100%;
+  max-width: 100%;
+}
+
 .wonder-press-page {
   width: 90%;
   max-width: 1180px;
 }
 
+.wonder-content,
 .wonder-press-content {
   clear: both;
   width: 90%;
   max-width: 680px;
   margin: 0 auto;
+}
+
+.wonder-highlights {
+  list-style: none;
+  padding: 2em 0;
+}
+
+.wonder-highlights h3 {
+  margin: 2em 0 0;
+}
+
+.wonder-press-content h2,
+.wonder-content h2 {
+  font-family: -apple-system-headline, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.wonder-intro,
+.wonder-features {
+  clear: both;
+  padding: 3em 0;
+  background: #f8f8f8;
+  border: 1px solid #eee;
+}
+
+.wonder-intro {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.wonder-features ul {
+  padding-left: 1em;
 }
 
 .wonder-press-icon {
@@ -34,20 +73,31 @@
 
 .wonder-title {
   text-align: center;
-  margin: 2em 0;
+  padding: 0 2em;
+  margin: -6em 0 15em;
+}
+
+.wonder-page .wonder-title {
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .wonder-title h1 {
   margin: 0;
-  font-size: 4.5em;
+  font-size: 2em;
   text-transform: uppercase;
 }
 
 .wonder-title h2 {
+  font: 1.5em Oswald, sans-serif;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 0.8em;
   text-transform: uppercase;
   color: #999;
+}
+
+.wonder-title-text {
+  float: left;
+  margin: 1.3em 0.8em;
 }
 
 .wonder-icon {
@@ -56,18 +106,58 @@
   border-radius: 22.41%;
   margin: 1em auto;
   display: block;
+  float: left;
 }
 
 .wonder-description {
   margin-bottom: 3em;
 }
 
+.wonder-header {
+  background: url(/assets/images/wonder-background.jpg) no-repeat 0 center;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6em;
+}
+
+.wonder-download {
+  margin: 4em auto;
+  display: block;
+}
+
+.wonder-download,
+.wonder-download-image {
+  width: 225px;
+}
+
+.wonder-download-title {
+  display: none;
+  margin-bottom: 0;
+}
+
+.wonder-download-header {
+  position: absolute;
+  top: 50%;
+  height: 67px;
+  margin-top: -33px;
+  left: 50%;
+  margin-left: -112px;
+}
+
+.wonder-iphone-screen {
+  display: none;
+}
+
 .email-signup {
+  display: none;
   text-align: center;
   margin-bottom: 3em;
   padding: 0.5em 0 1.5em;
-  background: #EEE;
-  border-radius: 6px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background: #f8f8f8;
 }
 
 .email-signup-title {
@@ -131,12 +221,7 @@
 }
 
 .wonder-screenshot {
-/*
-  display: inline-block;
-  width: 100%;
-  max-width: 100%;
-*/
-width: 320px;
+  width: 320px;
   margin-top: 30px;
   margin-left: 0;
   margin: 0 auto 40px;
@@ -155,29 +240,67 @@ width: 320px;
 
 @media screen and (min-width: 740px) {
   .wonder-title {
-    margin: 4em 0;
+    margin: 2em 0;
+    padding: 1em 0 2em;
+  }
+
+  .wonder-title {
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 260px;
+  }
+
+  .wonder-header {
+    margin-top: 0;
   }
 
   .wonder-icon {
     width: 128px;
     height: 128px;
     margin: 2em auto;
+    float: none;
   }
 
-  .email-signup-title {
-    font-size: 1.5em;
+  .wonder-title-text {
+    float: none;
+    margin: 0;
   }
 
-/*
-  .wonder-screenshot {
-    width: 200px;
+  .wonder-iphone {
+    height: 1000px;
+    background: url(/assets/images/iPhone-6s-Space-Gray-vertical.png) no-repeat 0 0;
+    background-size: 608px;
+    width: 520px;
+    float: left;
+    margin-right: 5em;
+    margin-left: -250px;
+    margin-top: 0;
+    margin-bottom: 5em;
   }
-*/
+
+  .wonder-iphone-screen {
+    display: block;
+    margin: 200px 82px 199px 117px;
+    width: 375px;
+    border: none;
+    border-radius: 0;
+  }
+
+  .wonder-highlights {
+    padding-top: 10em;
+  }
+
+  .wonder-title h1 {;
+    font-size: 3em;
+  }
+
+  .wonder-title h2 {
+    font-size: 1em;
+  }
 
   .wonder-screenshots li {
     width: 50%;
-
-/*     margin-right: 1%; */
   }
 
   .wonder-press-footer {
@@ -186,16 +309,32 @@ width: 320px;
 }
 
 @media screen and (min-width: 1180px) {
-/*
-  .wonder-screenshot {
-    width: 280px;
+  .wonder-title {
+    padding: 2em 3em 3em;
   }
-*/
+
+  .wonder-title h1 {;
+    font-size: 4.5em;
+  }
+
+  .wonder-title h2 {
+    font-size: 1.5em;
+  }
+
+  .wonder-title {
+    margin-right: 20%;
+  }
+
+  .wonder-download-title {
+    display: block;
+  }
+
+  .wonder-download-top {
+    display: none;
+  }
 
   .wonder-screenshots li {
     width: 33%;
-
-/*     margin-right: 5%; */
   }
 
 }
