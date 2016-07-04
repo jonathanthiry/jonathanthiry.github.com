@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /now
-date: 2016-06-27
+date: 2016-07-04
 ---
 
-I curently spend my time on:
+I currently spend my time on:
 
-- Preparing the release of [Wonder, a Wikipedia reader for iPhone](/wonder)
+- New features for [Wonder](/wonder)
 - My girlfriend and my dog
 - Cooking tasty meals
 - Reading [The Omnivore's Dilemma](
