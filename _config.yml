@@ -1,2 +1,4 @@
 url: http://jonathanthiry.com
 permalink: /:title
+collections:
+  - books

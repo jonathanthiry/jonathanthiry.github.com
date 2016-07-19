@@ -1,0 +1,15 @@
+---
+layout: page
+permalink: /reading
+---
+
+<h1 class="reading-page-title">Books I Read in 2016</h1>
+
+{% for book in site.books reversed %}
+
+  <h2 class="reading-book-title">{{ book.title }}</h2>
+  <h3 class="reading-book-author">By {{ book.author }} • <a href="{{ book.amazon-url }}">Amazon</a></h3>
+
+  {{ book.content }}
+
+{% endfor %}

@@ -32,14 +32,20 @@ a:focus {
   outline: thin dotted;
 }
 
+h1,
+h2,
+h3 {
+  font-family: Oswald, sans-serif;
+}
+
 h1 {
-  font: 2em Oswald, sans-serif;
+  font-size: 2em;
   margin: 1.5em 0 0;
   line-height: 1.2em;
 }
 
 h2 {
-  font: 1.5em Oswald, sans-serif;
+  font-size: 1.5em;
   margin: 1.5em 0 0.5em;
   line-height: 1.2em;
 }
@@ -175,6 +181,28 @@ nav a:visited {
 .meta {
   font-size: 80%;
   color: #b6b6b6;
+}
+
+.reading-page-title {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.reading-book-title {
+  font: bold 1.5em/1.5 Charter, Georgia, serif;
+  margin: 2em 0 0;
+}
+
+.reading-book-author,
+.reading-book-author a {
+  margin-top: 0;
+  font: 100%/1.5 Charter, Georgia, serif;
+  color: #767778;
+  border-color: #aaa;
+}
+
+.reading-book-author a:hover {
+  color: #ff4f00;
 }
 
 .wonder-banner {
