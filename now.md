@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /now
-date: 2016-07-18
+date: 2016-07-29
 ---
 
 I'm traveling around Sweden with my parents but I also spend my time on:
