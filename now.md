@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /now
-date: 2016-07-29
+date: 2016-08-15
 ---
 
 I'm visiting my parents in France but I also spend my time on:
 
-- New features for [Wonder](/wonder), mainly text size settings and URL schemes
+- New features for [Wonder](/wonder) and iOS 10 compatibility
 - Reading [Fish on Friday](https://www.amazon.com/Fish-Friday-Feasting-Fasting-Discovery/dp/B000MR8TH2?tag=jonathanthiry-20)
 - Working out at home
 - Meditating 10 minutes in the morning
