@@ -35,14 +35,18 @@
 .wonder-features {
   clear: both;
   padding: 3em 0;
-  background: #f8f8f8;
-  border: 1px solid #eee;
+  color: #f8f8f8;
+  background: #363744;
 }
 
 .wonder-intro {
   text-align: center;
   font-size: 1.5em;
   line-height: 1.5em;
+}
+
+.wonder-features {
+  opacity: 0.8;
 }
 
 .wonder-features ul {
@@ -296,7 +300,7 @@
     padding-top: 10em;
   }
 
-  .wonder-title h1 {;
+  .wonder-title h1 {
     font-size: 3em;
   }
 
@@ -318,7 +322,7 @@
     padding: 2em 3em 3em;
   }
 
-  .wonder-title h1 {;
+  .wonder-title h1 {
     font-size: 4.5em;
   }
 
