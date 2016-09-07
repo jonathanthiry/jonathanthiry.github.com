@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /now
-date: 2016-08-29
+date: 2016-09-07
 ---
 
-I'm visiting my parents in France but I also spend my time on:
+I'm traveling through France and Poland but I also spend my time on:
 
 - Bug fixes and iOS 10 compatibility for [Wonder](/wonder)
 - Reading [Fish on Friday](https://www.amazon.com/Fish-Friday-Feasting-Fasting-Discovery/dp/B000MR8TH2?tag=jonathanthiry-20) and [The Art of Travel](https://www.amazon.com/Art-Travel-Alain-Botton/dp/0375725342?tag=jonathanthiry-20)
