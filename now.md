@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /now
-date: 2016-09-07
+date: 2016-09-13
 ---
 
-I'm traveling through France and Poland but I also spend my time on:
+I came back to Sweden after traveling through France and Poland but I also spend my time on:
 
 - Bug fixes and iOS 10 compatibility for [Wonder](/wonder)
 - Reading [Fish on Friday](https://www.amazon.com/Fish-Friday-Feasting-Fasting-Discovery/dp/B000MR8TH2?tag=jonathanthiry-20) and [The Art of Travel](https://www.amazon.com/Art-Travel-Alain-Botton/dp/0375725342?tag=jonathanthiry-20)
