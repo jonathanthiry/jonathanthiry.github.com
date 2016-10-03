@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /now
-date: 2016-09-26
+date: 2016-10-03
 ---
 
 After traveling to France and Poland, I am back in Sweden and I spend my time on:
 
 - [Wonder](/wonder) 1.2 - codename Shortcuts
-- Reading [Alice's Adventures in Wonderland](http://www.gutenberg.org/ebooks/11), [Fish on Friday](https://www.amazon.com/Fish-Friday-Feasting-Fasting-Discovery/dp/B000MR8TH2?tag=jonathanthiry-20) and [The Art of Travel](https://www.amazon.com/Art-Travel-Alain-Botton/dp/0375725342?tag=jonathanthiry-20)
-- Working out at home
+- Reading [The Word Exchange](https://www.amazon.com/Word-Exchange-Novel-Alena-Graedon/dp/0385537654?tag=jonathanthiry-20), [Sports Gene](https://www.amazon.com/Sports-Gene-Extraordinary-Athletic-Performance/dp/161723012X?tag=jonathanthiry-20) and [So Good They Can't Ignore You](https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124?tag=jonathanthiry-20)
+- Working out at home every day and going to the swimming pool twice per week
 - Meditating 10 minutes in the morning
 
 Last updated: {{ page.date | date_to_long_string }}
