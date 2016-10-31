@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /now
-date: 2016-10-10
+date: 2016-10-31
 ---
 
 After traveling to France and Poland, I am back in Sweden and I spend my time on:
