@@ -3,12 +3,27 @@ layout: page
 permalink: /reading
 ---
 
-<h1 class="reading-page-title">Books I Read in 2016</h1>
+<h1 class="reading-page-title">Books I've Read</h1>
 
-{% for book in site.books reversed %}
+<p>These are the books I've read since the beginning of 2016, more or less in the order I read them. There aren't any buy links because I don't want to promote any online seller and I don't know of any open database with a good catalog. I get books from my local library, ebook downloads, or local bookstores.</p>
 
-  <h2 class="reading-book-title">{{ book.title }}</h2>
-  <h3 class="reading-book-author">By {{ book.author }} • <a href="{{ book.amazon-url }}">Amazon</a></h3>
+<h2>2017</h2>
+
+{% for book in site.books_2017 reversed %}
+
+  <h3 class="reading-book-title">{{ book.title }}</h3>
+  <h4 class="reading-book-author">By {{ book.author }}</h4>
+
+  {{ book.content }}
+
+{% endfor %}
+
+<h2>2016</h2>
+
+{% for book in site.books_2016 reversed %}
+
+  <h3 class="reading-book-title">{{ book.title }}</h3>
+  <h4 class="reading-book-author">By {{ book.author }}</h4>
 
   {{ book.content }}
 

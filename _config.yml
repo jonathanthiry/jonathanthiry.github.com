@@ -1,4 +1,5 @@
 url: http://jonathanthiry.com
 permalink: /:title
 collections:
-  - books
+  - books_2016
+  - books_2017
