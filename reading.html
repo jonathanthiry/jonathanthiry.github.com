@@ -11,10 +11,10 @@ permalink: /reading
 
 {% for book in site.books_2017 reversed %}
 
-  <h3 class="reading-book-title">{{ book.title }}</h3>
-  <h4 class="reading-book-author">By {{ book.author }}</h4>
-
+<div class="reading-book">
+  <h3 class="reading-book-title">{{ book.title }} <span class="reading-book-author">by {{ book.author }}</span></h3>
   {{ book.content }}
+</div>
 
 {% endfor %}
 
@@ -22,9 +22,9 @@ permalink: /reading
 
 {% for book in site.books_2016 reversed %}
 
-  <h3 class="reading-book-title">{{ book.title }}</h3>
-  <h4 class="reading-book-author">By {{ book.author }}</h4>
-
+<div class="reading-book">
+  <h3 class="reading-book-title">{{ book.title }} <span class="reading-book-author">by {{ book.author }}</span></h3>
   {{ book.content }}
+</div>
 
 {% endfor %}
