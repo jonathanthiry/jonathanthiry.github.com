@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /now
-date: 2017-04-10
+date: 2017-05-08
 ---
 
 Days are getting longer here in Sweden and I try to catch the sun every day when I go out with my dog in the afternoon. I spend the rest of my time on:
 
 - Working on [Wonder](https://itunes.apple.com/us/app/wonder-reader-for-wikipedia/id1050888989?mt=8&at=1010lo2M) 1.4 
-- Reading [Shop Class as Soulcraft](http://www.matthewbcrawford.com/new-page-1-1-2/), [A Place of My Own](https://en.wikipedia.org/wiki/A_Place_of_My_Own), [Cinq semaines en ballon](https://fr.wikipedia.org/wiki/Cinq_semaines_en_ballon) (in French), [Carl Linnaeus, Pioneer of Modern Botany](https://openlibrary.org/works/OL7005074W/Carl_Linnaeus_pioneer_of_modern_botany)
+- Reading [Shop Class as Soulcraft](http://www.matthewbcrawford.com/new-page-1-1-2/), [A Place of My Own](https://en.wikipedia.org/wiki/A_Place_of_My_Own), [Cinq semaines en ballon](https://fr.wikipedia.org/wiki/Cinq_semaines_en_ballon) (in French)
 - Swimming once a week and bodyweight training 5/6 days per week
 - Meditating a few minutes every day, preferably in the morning
 - Photographing friends, family and all kind of things when I go outside; I recently joined a club to meet the local community
