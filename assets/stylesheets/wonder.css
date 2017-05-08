@@ -18,7 +18,7 @@
 
 .wonder-highlights {
   list-style: none;
-  padding: 2em 0;
+  padding: 2em;
 }
 
 .wonder-highlights h3 {
@@ -31,22 +31,21 @@
   font-weight: bold;
 }
 
-.wonder-intro,
-.wonder-features {
-  clear: both;
-  padding: 3em 0;
-  color: #f8f8f8;
-  background: #363744;
-}
-
 .wonder-intro {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 0.8em;
   line-height: 1.5em;
+  margin: 0 3em 0;
+  color: #C7C5DE;
 }
 
 .wonder-features {
-  opacity: 0.8;
+  padding: 2em;
+  color: #f8f8f8;
+  background: #363744;
+  background-image: radial-gradient(circle farthest-corner at bottom right, #575490 0, #363744 100%);
+  background-image: radial-gradient(circle farthest-corner at bottom right, #3D3968 0, #2F2E45 100%);
+  background: #353240;
 }
 
 .wonder-features ul {
@@ -75,23 +74,28 @@
   line-height: 1.5em;
 }
 
-.wonder-title {
+.wonder-header {
+  padding: 3em 0;
+  color: #f8f8f8;
+  background: #363744;
   text-align: center;
-  padding: 0 0 6em;
   font-family: -apple-system-headline, "Helvetica Neue", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  background: linear-gradient(#363744, #575490);
+  background-image: radial-gradient(circle farthest-corner at 0 0, #575490 0, #363744 100%);
 }
 
-.wonder-page .wonder-title {
-  padding: 0 2em;
-  margin: -6em 0 15em;
-  background: rgba(255, 255, 255, 0.7);
+.wonder-page h2 {
+  font-weight: normal;
+  font-family: Charter;
 }
 
-.wonder-title h1 {
-  margin: 0;
+.wonder-title {
+  margin-top: 1em;
   font-size: 2em;
   text-transform: uppercase;
-  color: #454545;
+  opacity: 0.9;
 }
 
 .wonder-title h2 {
@@ -101,31 +105,23 @@
   color: #999;
 }
 
-.wonder-title-text {
-  float: left;
-  margin: 1.3em 0.8em;
-}
-
-.wonder-icon {
-  width: 64px;
-  height: 64px;
-  border-radius: 22.41%;
-  margin: 1em auto;
-  display: block;
-  float: left;
-}
-
 .wonder-description {
   margin-bottom: 3em;
 }
 
-.wonder-header {
-  background: url(/assets/images/wonder-background.jpg) no-repeat 0 center;
-  background-size: 100% auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 6em;
+.wonder-title-text {
+  font-family: -apple-system-headline, sans-serif;
+  text-align: center;
+}
+
+.wonder-title-text h1 {
+  font-size: 3rem;
+  color: #454545;
+  margin: 0;
+}
+
+.wonder-title-text h2 {
+  font-size: 1rem;
 }
 
 .wonder-download {
@@ -143,13 +139,8 @@
   margin-bottom: 0;
 }
 
-.wonder-download-header {
-  position: absolute;
-  top: 50%;
-  height: 67px;
-  margin-top: -33px;
-  left: 50%;
-  margin-left: -112px;
+.wonder-download-top {
+  margin-bottom: 0;
 }
 
 .wonder-iphone-screen {
@@ -245,47 +236,33 @@
   text-align: center;
 }
 
+.wonder-icon {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 2rem auto;
+  float: none;
+  border-radius: 22.41%;
+}
+
 @media screen and (min-width: 740px) {
-  .wonder-title {
-    margin: 2em 0;
-    padding: 1em 0 2em;
-  }
-
-  .wonder-page .wonder-title {
-    padding: 2em 2em;
-    margin: 2em 0;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: 10%;
-    width: 260px;
-  }
-
   .wonder-header {
-    margin-top: 0;
+    padding-bottom: 8em;
   }
 
-  .wonder-icon {
-    width: 128px;
-    height: 128px;
-    margin: 2em auto;
-    float: none;
-  }
-
-  .wonder-title-text {
-    float: none;
-    margin: 0;
+  .wonder-download-top {
+    float: right;
+    margin: 80px 6%;
   }
 
   .wonder-iphone {
+    width: 574px;
     height: 1000px;
-    background: url(/assets/images/iPhone-6s-Space-Gray-vertical.png) no-repeat 0 0;
-    background-size: 608px;
-    width: 520px;
+    background: url(/assets/images/iphone-grand-canyon.png) no-repeat 69px 74px;
+    background-size: 453px;
     float: left;
-    margin-right: 5em;
     margin-left: -250px;
-    margin-top: 0;
-    margin-bottom: 5em;
+    margin-top: -260px;
   }
 
   .wonder-iphone-screen {
@@ -296,16 +273,22 @@
     border-radius: 0;
   }
 
+  .wonder-features {
+    margin: 5em 0;
+  }
+
+  .wonder-highlights,
+  .wonder-features {
+    padding: 2em 2em 2em 320px;
+  }
+
   .wonder-highlights {
-    padding-top: 10em;
+    padding-top: 4em;
   }
 
-  .wonder-title h1 {
-    font-size: 3em;
-  }
-
-  .wonder-title h2 {
-    font-size: 1em;
+  .wonder-highlights,
+  .wonder-features ul {
+    max-width: 620px;
   }
 
   .wonder-screenshots li {
@@ -318,16 +301,21 @@
 }
 
 @media screen and (min-width: 1180px) {
-  .wonder-page .wonder-title {
-    padding: 2em 3em 3em;
+  .wonder-header {
+    padding: 5em 0 8em;
+  }
+
+  .wonder-iphone {
+    margin-left: 0;
+  }
+
+  .wonder-highlights,
+  .wonder-features {
+    padding-left: 600px;
   }
 
   .wonder-download-title {
     display: block;
-  }
-
-  .wonder-download-top {
-    display: none;
   }
 
   .wonder-screenshots li {
