@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /now
-date: 2017-07-17
+date: 2017-08-14
 ---
 
-Samantha started a new job in the south of Sweden so we moved out of our apartement in Katrineholm and we're looking for a new permanent accomodation. I got a motorcycle and traveled to France a couple of weeks ago. Then I spend my time on:
+I got a motorcycle and traveled to France in July. Now that I am back in Sweden I am looking for work opportunities and a permanent accomodation since we moved here recently. Then I spend my time on:
 
 - Working on [Wonder](https://itunes.apple.com/us/app/wonder-reader-for-wikipedia/id1050888989?mt=8&at=1010lo2M) 2 -- 1.4 was recently released to add a swiping gesture to close tabs, restoration of the scrolling position on launch, and custom peek and pop preview
-- Reading [Shop Class as Soulcraft](http://www.matthewbcrawford.com/new-page-1-1-2/), [A Place of My Own](https://en.wikipedia.org/wiki/A_Place_of_My_Own), and [The Fifth Season](https://en.wikipedia.org/wiki/The_Fifth_Season_(novel))
-- Working out -- my daily training is based on calisthenics and convict conditionning, I plan to swim in open water during the summer 
+- Reading [The Obelisk Gate](https://en.wikipedia.org/wiki/The_Obelisk_Gate) and [The Old Ways: A journey on Foot](https://www.goodreads.com/book/show/13369533-the-old-ways) 
+- Working out -- my daily training is based on calisthenics and convict conditionning 
 - Meditating a few minutes every day, preferably in the morning
 - Photographing friends, family and all kind of things when I go outside
 
