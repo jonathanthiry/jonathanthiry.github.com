@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /now
-date: 2017-20-23
+date: 2017-11-13
 ---
 
 I started to work at Lund's University on the [Swedish Infrastructure for Ecosystem Science project](http://www.fieldsites.se/en-GB) and the [ICOS Carbon Portal](https://www.icos-cp.eu/).
