@@ -2,11 +2,10 @@
 layout: page
 permalink: /now
 date: 2019-03-18
+title: What I'm doing now
 ---
 
-# What I'm doing now
-
-- I am working at Lund's University on the [Swedish Infrastructure for Ecosystem Science project](http://www.fieldsites.se/en-GB) and the [ICOS Carbon Portal](https://www.icos-cp.eu/) since September 2017 where I'm helping researchers to store and distribute data on the environment.
+- I am working at Lund's University on the [Swedish Infrastructure for Ecosystem Science project](http://www.fieldsites.se/en-GB) and the [ICOS Carbon Portal](https://www.icos-cp.eu/) since September 2017 where I'm helping researchers to store and distribute data on the environment
 - Samantha and I bought a house in the Swedish countryside last August, I enjoy spending a lot of time there, and there is always a lot to do there
 - Reading 1984, Health and Light and Ett jävla Solsken
 - Working out -- my daily training is based on natural movement, both at home and at the gym
