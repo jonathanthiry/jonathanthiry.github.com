@@ -86,13 +86,26 @@ table {
 
 /*** Main ***/
 
+:root {
+  --main-bg-color: #fbfbfb;
+  --main-txt-color: #454545;
+  --main-link-color: #ff4f00;
+  --main-link-underline-color: #ffcbb3;
+  --main-link-underline-hover-color: #ff7433;
+  --divider-color: #efefef;
+  --nav-link-color: #b6b6b6;
+  --nav-hover-link-color: #383838;
+  --secondary-txt-color: #b6b6b6;
+  --tertiary-txt-color: #767778;
+}
+
 body {
   font: 100%/1.5 Charter, Georgia, serif;
   width: 90%;
   max-width: 680px;
   margin: 0 auto;
-  color: #454545;
-  background: #fbfbfb;
+  color: var(--main-txt-color);
+  background: var(--main-bg-color);
 }
 
 .arrowlink {
@@ -103,32 +116,32 @@ body {
 
 a {
   text-decoration: none;
-  color: #ff4f00;
+  color: var(--main-link-color);
 }
 
 .header {
   margin: 0 auto 2em auto;
   padding: 1em 0;
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid var(--divider-color);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
 .header a:hover {
-  color: #383838;
+  color: var(--nav-hover-link-color);
 }
 
 .title {
   display: inline-block;
-  color: #454545;
+  color: var(--main-txt-color);
   font-size: 1.25rem;
 }
 
 nav a,
 nav a:visited {
   display: inline-block;
-  color: #b6b6b6;
+  color: var(--nav-link-color);
   margin-left: 0.8em;
 }
 
@@ -154,17 +167,17 @@ nav a:visited {
 
 .post-content a,
 .page a {
-  border-bottom: 1px solid #ffcbb3;
+  border-bottom: 1px solid var(--main-link-underline-color);
 }
 
 .post-content a:hover,
 .page a:hover {
-  border-bottom: 1px solid #ff7433;
+  border-bottom: 1px solid var(--main-link-underline-hover-color);
 }
 
 .meta {
   font-size: 80%;
-  color: #b6b6b6;
+  color: var(--secondary-txt-color);
 }
 
 .reading-page-title {
@@ -182,11 +195,8 @@ nav a:visited {
 }
 
 .reading-book-author {
-  margin: 0;
-/*   font: 100%/1.5 Charter, Georgia, serif; */
   font-weight: normal;
-  color: #767778;
-  border-color: #aaa;
+  color: var(--tertiary-txt-color);
 }
 
 .wonder-banner-container {
@@ -213,7 +223,7 @@ nav a:visited {
   margin: 0 auto;
   border: 1px solid #eee;
   border-radius: 0.5em;
-  background: linear-gradient( #f5f5f5, #ebebeb);
+  background: linear-gradient(#f5f5f5, #ebebeb);
   display: inline-block;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .08), 0px 2px 3px 0px rgba(0, 0, 0, .08);
 }
@@ -240,7 +250,7 @@ nav a:visited {
   .title {
     font-size: 1.5rem;
   }
-  
+
   .post-title {
     font-size: 2em;
   }
@@ -268,5 +278,18 @@ nav a:visited {
 
   .wonder-tagline {
     font-size: 2rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg-color: #333;
+    --main-txt-color: #fbfbfb;
+    --main-link-color: #ff4f00;
+    --main-link-underline-color: #993000;
+    --main-link-underline-hover-color: #CC4000;
+    --divider-color: #555;
+    --nav-link-color: #b6b6b6;
+    --nav-hover-link-color: #fbfbfb;
   }
 }
